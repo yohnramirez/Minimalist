@@ -1,0 +1,332 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.we-are {
+    padding-top: 130px;
+}
+
+.we-are span {
+    margin: 25px;
+}
+
+.minimal h1 {
+    font-size: 90px;
+    letter-spacing: 15px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.minimal h3 {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+.minimal-description {
+    letter-spacing: 1.5px;
+}
+
+.minimal-description span {
+    margin: 15px 15px 35px 15px;
+}
+
+.minimal-year {
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    color: antiquewhite;
+    text-align: center;
+    background: #000000;
+    background: linear-gradient(to right, hsla(0, 0%, 26%, 0.356), #000000);
+    background: linear-gradient(to right, hsla(0, 0%, 26%, 0.164), #000000), url(../images/backgound.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* BAR NAV*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid rgba(219, 214, 214, 0.8);
+}
+
+nav a{
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-size: 40px 40px 40px;
+    background: rgba(245, 239, 239, 0.8);
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+}
+
+.nav-t{
+    margin: 15px 9.5% 10px 10%;
+    font-size: 50px;
+    color:  rgb(32, 32, 32);
+    border: 3px solid rgb(32, 32, 32);
+    padding: 5px 15px 5px 15px;
+}
+
+.nav-bar{
+    line-height: 88.5px;
+}
+
+.nav-bar a{
+    margin: auto 25px auto 25px;
+}
+
+/* PRODUCT */
+
+.info-product{
+    margin-top: 9%;
+    text-align: center;
+}
+
+.info-product h1{
+    display: inline-block;
+    background: rgba(245, 239, 239, 0.8);
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.info-product p{
+    margin: 35px 20% 0 20%;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background: rgba(245, 239, 239, 0.8);
+    color: rgb(71, 70, 70);
+}
+
+.info-product-img img {
+    width: 90px;
+    height: 90px;
+}
+
+.product-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.product-img-ind img{
+    height: 80px;
+    width: 80px;
+}
+
+.product-img-ind{
+    padding: 0;
+    margin: 120px 8% 0 8%;
+}
+
+.product-img-ind-line{
+    border-bottom: 3px solid  rgb(71, 70, 70);
+    max-width: 80px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.product-img-ind p{
+    text-align: center;
+    letter-spacing: 1px;
+    background: rgba(245, 239, 239, 0.8);
+    color: rgb(71, 70, 70);
+}
+
+/* EXPERIENCE*/
+
+.experience{
+    display: flex;
+    height: 750px;
+    background: rgb(24, 21, 21);
+}
+
+.experience-text{
+    margin-top: 80px;
+    margin-left: 60px;
+    max-width: 30%;
+}
+
+.experience-text h1{
+    color: rgb(252, 243, 232);
+    font-size: 50px;
+    text-align: left;
+}
+
+.experience-text p{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: rgb(173, 163, 163);
+    margin-bottom: 40px;
+}
+
+.btn-contact-us input{
+    color:  rgb(14, 12, 12);
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-contact-us input:hover{
+    color: rgb(252, 243, 232);
+    background: rgb(14, 12, 12);
+    border: 2px solid rgb(252, 243, 232);
+}
+
+.experience-brand{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 100px;
+}
+
+.brand-ind img{
+    filter: grayscale(100%);
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/* SENTENCE */
+
+.sentence{
+    font-family: 'Dancing Script', cursive;
+    height: 200px;
+    margin: 100px;
+}
+
+.section-sentence{
+    text-align: center;
+    letter-spacing: 1px;
+    background: rgba(245, 239, 239, 0.8);
+    color: rgb(71, 70, 70);
+}
+
+.section-autor{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(126, 116, 116);
+}
+
+/* RECENT WORK */
+
+.recent-work{
+    max-width: 100%;
+    background: rgba(230, 223, 223, 0.8);
+}
+
+.tittle-recent-work h1{
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.tittle-img img{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.recent-work-nav{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.recent-work-nav a{
+    color: rgb(90, 88, 88);
+    background: rgb(252, 243, 232);
+    border: 2px solid transparent;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.recent-work-nav a:hover{
+    color: rgb(252, 243, 232);
+    background: rgb(14, 12, 12);
+}
+
+.recent-work-img{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-img img{
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    margin: 15px;
+    width: 350px;
+    height: 280px;
+    margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+    background: rgb(24, 21, 21);
+}
+
+.social-net{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-net-ind{
+    margin: 60px 70px auto 70px;    
+}
+
+.social-net-ind a{
+    font-size: 50px;
+    border: 2px solid none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    background:rgb(240, 229, 229);
+    color:  rgb(24, 21, 21);
+}
+
+.social-net-ind p{
+    color: rgb(173, 163, 163);
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.final-tittle{
+    color: rgb(173, 163, 163);
+    text-align: center;
+    margin-top: 110px;
+}
+
+.boton-subir{
+    display: none;
+    font-size: 40px;
+    position: fixed;
+    right: 15px;
+    bottom:2px;
+    margin-bottom: 10px;
+    z-index: 999999999;
+    color:  rgb(24, 21, 21);
+    background: rgba(245, 239, 239, 0.8);
+    padding: 5px;
+    border-radius: 30px;
+}
